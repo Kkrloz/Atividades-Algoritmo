@@ -1,0 +1,9 @@
+// Crie um array de números de 1 a 10 e use map para criar um novo array
+// onde cada número é multiplicado por 2.
+function run() {
+	const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+	const numerosVezes2 = numeros.map((numero) => numero * 2);
+	console.log(numerosVezes2);
+}
+
+module.exports = { run };
